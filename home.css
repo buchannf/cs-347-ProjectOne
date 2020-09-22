@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+body {
+    height: 100vh;
+    margin: 0;
+
+}
+#root {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    height: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color:#27355C;
+    box-shadow: 0 0 30px #27355C;
+    justify-content: center;
+}
+header > p {
+    font-size: 1.5em;
+    color: #FF8401;
+    font-family: 'Mate SC', serif;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-link {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    color: #FF8401;
+}
+li > a {
+    text-decoration: none;
+    color:  #FF8401;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Staatliches', cursive;
+}
+li > a:hover {
+    text-decoration: none;
+    color:  #FF8401;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 30px #27355C;
+    font-size: large;
+}
+main{
+    padding-top: 60px;
+    background-color:#5E80DC;
+    flex-grow: 10;
+}
+footer {
+    background-color: #27355C;
+}
+
+#main-root {
+    display: flex;
+    flex-direction: row;
+    background-color: #5E80DC;
+}
+#main-content {
+    display: flex;
+    flex-direction: column;
+    background-color:#5E80DC;
+    flex-grow: 1;
+}
+#side-content {
+    margin: 5px;
+    background-color:#D1E8EB;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px #27355C;
+    font-family: 'Jacques Francois Shadow', cursive;
+    justify-content: center;
+}
+#side-content > img {
+    height: 100px;
+    width: 100px;
+}
+#slideshow {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    overflow: hidden;
+    background-color:#5E80DC;
+    justify-content: center;
+    margin: 0;
+}
+.slide {
+    margin: 0;
+    box-shadow: 0 0 30px #27355C;
+}
+
+#events{
+    margin: 20px;
+    background-color: #D1E8EB;
+    flex-grow: 1;
+    box-shadow: 0 0 30px #27355C;
+    font-family: 'Metal Mania', cursive;
+}
+
+footer {
+    box-shadow: 0 0 30px #27355C;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer > div > h1 {
+    text-align: center;
+    margin-right: 10px;
+    padding: 0;
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+}
+footer > div > p {
+    margin-right: 10px;
+    padding: 0;
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+}
