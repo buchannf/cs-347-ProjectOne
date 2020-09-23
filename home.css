@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Philosopher&display=swap");
 body {
     height: 100vh;
     margin: 0;
@@ -61,6 +61,8 @@ main{
     padding-top: 60px;
     background-color:#5E80DC;
     flex-grow: 10;
+    display: flex;
+    flex-direction: column;
 }
 footer {
     background-color: #27355C;
@@ -75,6 +77,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color:#5E80DC;
+    box-shadow: 0 0 30px #27355C;
     flex-grow: 1;
     background-image: url("Images/kap2018.JPG");
     background-position: center; 
@@ -85,14 +88,17 @@ footer {
     margin: 5px;
     background-color:#D1E8EB;
     flex-grow: 1;
-    display: flex;
-    flex-direction: column;
     box-shadow: 0 0 30px #27355C;
-    font-family: 'Arvo', serif;
+    font-family:'Philosopher', sans-serif;
+    font-weight: bold;
     justify-content: center;
 }
-#side-content > img {
-    width: 300px;
+#side-content-header {
+    display: flex;
+    flex-direction: row;
+}
+#side-content-header > img {
+    width: 200px;
     margin: 20px;
     box-shadow: 0 0 30px #27355C;
 }
@@ -115,14 +121,85 @@ footer {
     height: 500px;
     width: 500px;
 }
+#site-layout {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.site-layout > a {
+    text-decoration: none;
+}
+.site-layout-preveiw {
+    text-align: center;
+    background-color: #D1E8EB;
+    height: 100vh;
+    width: 30vh;
+    box-shadow: 0 0 30px #27355C;
+}
+.site-layout-preveiw > h1{
+    background-color:  #27355C;
+    color:  #FF8401;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Staatliches', cursive;
+    box-shadow: 0 0 30px #27355C;
+}
+.site-layout-preveiw:hover {
+    height: 101vh;
+    width: 310px;
+}
+#about {
+    background-image: url("Images/kdrCrest.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+#rush {
+    background-image: url("Images/rush.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
 
+#philo {
+    background-image: url("Images/philo.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#scholar {
+    background-image: url("Images/scholar.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+#alum {
+    background-image: url("Images/alum.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
 
 #events{
     margin: 20px;
     background-color: #D1E8EB;
     flex-grow: 1;
     box-shadow: 0 0 30px #27355C;
-    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#event-list {
+    font-family: 'Staatliches', cursive;
+}
+
+#event-list > li{
+    text-align: initial;
+    margin: 10px;
 }
 
 footer {
@@ -142,7 +219,11 @@ footer > div > h1 {
 }
 footer > div > p {
     margin-right: 10px;
+    text-align: center;
     padding: 0;
     color:  #FF8401;
     font-family: 'Staatliches', cursive;
 }
+
+
+
