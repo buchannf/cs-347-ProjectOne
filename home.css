@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 body {
     height: 100vh;
     margin: 0;
@@ -75,34 +76,46 @@ footer {
     flex-direction: column;
     background-color:#5E80DC;
     flex-grow: 1;
+    background-image: url("Images/kap2018.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 #side-content {
     margin: 5px;
     background-color:#D1E8EB;
-    flex-grow: 2;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 30px #27355C;
-    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Arvo', serif;
     justify-content: center;
 }
 #side-content > img {
-    height: 100px;
-    width: 100px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 0 30px #27355C;
+}
+#side-content > p {
+    padding: 10px;
+
 }
 #slideshow {
     display: flex;
     flex-direction: row;
-    width: 50vw;
-    overflow: hidden;
-    background-color:#5E80DC;
     justify-content: center;
     margin: 0;
 }
+
 .slide {
     margin: 0;
     box-shadow: 0 0 30px #27355C;
 }
+.slide > img {
+    height: 500px;
+    width: 500px;
+}
+
 
 #events{
     margin: 20px;
