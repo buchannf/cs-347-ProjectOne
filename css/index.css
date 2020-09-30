@@ -1,0 +1,100 @@
+#main-root {
+    display: flex;
+    flex-direction: row;
+}
+#main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#side-content {
+    margin: 5px;
+    margin-right: 20px;
+    background-color:#D1E8EB;
+    flex-grow: 1;
+    box-shadow: 0 0 30px #27355C;
+    font-family:'Philosopher', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+#side-content-header {
+    display: flex;
+    flex-direction: row;
+}
+#side-content-header > img {
+    width: 200px;
+    margin: 20px;
+    box-shadow: 0 0 30px #27355C;
+}
+#side-content > p {
+    padding: 10px;
+
+}
+#slideshow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.slide {
+    margin: 0;
+    box-shadow: 0 0 30px #27355C;
+}
+.slide > img {
+    max-height: 500px;
+    max-width: 500px;
+    height: 100%;
+    width: 100%;
+}
+#site-layout {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.site-layout > a {
+    text-decoration: none;
+}
+.site-layout-preveiw {
+    text-align: center;
+    background-color: #D1E8EB;
+    max-height: 100vh;
+    max-width: 30vh;
+    box-shadow: 0 0 30px #27355C;
+}
+.site-layout-preveiw > h1{
+    background-color:  #27355C;
+    color:  #FF8401;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Staatliches', cursive;
+    box-shadow: 0 0 30px #27355C;
+}
+.site-layout-preveiw:hover {
+    max-height: 101vh;
+    max-width: 310px;
+}
+
+#events{
+    margin: 20px;
+    background-color: #D1E8EB;
+    flex-grow: 1;
+    box-shadow: 0 0 30px #27355C;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#event-list {
+    font-family: 'Staatliches', cursive;
+}
+
+#event-list > li{
+    text-align: initial;
+    margin: 10px;
+}
+
+
+
