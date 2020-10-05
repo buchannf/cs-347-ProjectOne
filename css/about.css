@@ -1,0 +1,21 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#values {
+    background-color: wheat;
+    box-shadow: 0 0 30px wheat;
+    margin: 30px;
+    text-align: center;
+}
+#values > p {
+    font-size: 30px;
+    margin: 30px;
+}
+#national-history {
+    background-color: wheat;
+    box-shadow: 0 0 30px wheat;
+    margin: 30px;
+}
