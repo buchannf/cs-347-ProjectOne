@@ -1,0 +1,75 @@
+#head > h1 {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    color: #FF8401;
+    font-size: 150px;
+    margin: 0;
+    animation-name: text-changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes text-changer {
+    0% {color: #FF8401;}
+    50% {color: #27355C;}
+    100% {color: #FF8401;}
+}
+img {
+    box-shadow: 0 0 30px #27355C;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: flex-start;
+    background-color: wheat;
+    margin: 5%;
+    width: 75%;
+    text-align: center;
+    box-shadow: 0 0 30px #27355C;
+    font-size: 50px;
+    font-family:'Philosopher', sans-serif;
+}
+.info-box > ul {
+    margin: 20px;
+    text-align: start;
+}
+.info-box > h1 {
+    background-color:  #27355C;
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    margin: 0;
+    padding: 5px;
+}
+.info-box > img {
+    margin: 0;
+    align-self: center;
+    width: 75%;
+}
+#contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+    box-shadow: 0 0 30px #27355C;
+    background-color: wheat;
+    background-color:  #27355C;
+}
+#contact-info {
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+    text-align: start;
+}
+#contact-info > h1 {
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
