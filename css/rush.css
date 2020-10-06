@@ -63,12 +63,12 @@ img {
     background-color: wheat;
     background-color:  #27355C;
 }
-#contact-info {
+.contact-info {
     color:  #FF8401;
     font-family: 'Staatliches', cursive;
     text-align: start;
 }
-#contact-info > h1 {
+.contact-info > h1 {
     color:  #FF8401;
     font-family: 'Staatliches', cursive;
     text-align: center;

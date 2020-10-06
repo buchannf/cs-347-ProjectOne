@@ -1,0 +1,53 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+}
+#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.kodak {
+    margin: 50px;
+
+}
+.kodak > img {
+    box-shadow: 0 0 30px #27355C;
+    max-height: 250px;
+}
+.kodak > h1 {
+    background-color:  #27355C;
+    box-shadow: 0 0 30px #27355C;
+    color:  #FF8401;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    margin: 0;
+    padding: 5px;
+}
+
+.next, .prev {
+    box-shadow: 0 0 30px #27355C;
+    font-size: 70px;
+    text-align: center;
+    color: #FF8401;
+    background-color:  #27355C;
+    height: 100px;
+    width: 100px;
+}
+.next:hover, .prev:hover {
+    box-shadow: 0 0 30px #FF8401;
+    color: #27355C;
+    background-color: #FF8401;
+}
