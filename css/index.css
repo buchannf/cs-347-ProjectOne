@@ -10,7 +10,7 @@
 #side-content {
     margin: 5px;
     margin-right: 20px;
-    background-color:#D1E8EB;
+    background-color:wheat;
     flex-grow: 1;
     box-shadow: 0 0 30px #27355C;
     font-family:'Philosopher', sans-serif;
@@ -48,39 +48,9 @@
     height: 100%;
     width: 100%;
 }
-#site-layout {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-decoration: none;
-}
-.site-layout > a {
-    text-decoration: none;
-}
-.site-layout-preveiw {
-    text-align: center;
-    background-color: #D1E8EB;
-    max-height: 100vh;
-    max-width: 30vh;
-    box-shadow: 0 0 30px #27355C;
-}
-.site-layout-preveiw > h1{
-    background-color:  #27355C;
-    color:  #FF8401;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Staatliches', cursive;
-    box-shadow: 0 0 30px #27355C;
-}
-.site-layout-preveiw:hover {
-    max-height: 101vh;
-    max-width: 310px;
-}
-
 #events{
     margin: 20px;
-    background-color: #D1E8EB;
+    background-color: wheat;
     flex-grow: 1;
     box-shadow: 0 0 30px #27355C;
     text-align: center;
@@ -96,5 +66,18 @@
     margin: 10px;
 }
 
-
+@media(max-width: 560px) {
+    #side-content {
+        margin: 5px;
+    }
+    #main-root {
+        flex-direction: column;
+    }
+    .slide > img {
+        max-width: 200px;
+    }
+    #side-content-header > img {
+        max-width: 150px;
+    }
+}
 

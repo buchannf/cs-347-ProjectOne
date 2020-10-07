@@ -22,6 +22,7 @@ header{
     display: flex;
     flex-direction: row;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     background-image: linear-gradient(.75turn, #FF8401, 4%, #27355C);
@@ -101,6 +102,28 @@ footer > div > p {
     padding: 0;
     color:  #FF8401;
     font-family: 'Staatliches', cursive;
+}
+@media(max-width: 915px) {
+    header > p {
+        font-size: 1em;
+        text-align: end;
+    }
+    li > a {
+        padding: 0;
+    }
+}
+@media(max-width: 560px) {
+
+    header > p {
+        display: none;
+    }
+
+    .nav-link {
+        padding: 2px;
+    }
+    .nav-links {
+        justify-content: start;
+    }
 }
 
 
