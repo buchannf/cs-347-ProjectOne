@@ -18,11 +18,14 @@ body {
 .logo {
     height: 20px;
 }
+.spacer {
+    height: 225px;
+}
 header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     right: 0;
     background-image: linear-gradient(.75turn, #FF8401, 4%, #27355C);
@@ -31,7 +34,14 @@ header{
     margin: 0;
     padding: 0;
 }
-header > p {
+#header-photo {
+    width: 100%;
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+}
+header > #nav > p {
     font-size: 1.5em;
     margin-left: 5px;
     color: #FF8401;
@@ -114,15 +124,17 @@ footer > div > p {
 }
 @media(max-width: 560px) {
 
-    header > p {
+    header > #nav > p {
         display: none;
     }
-
     .nav-link {
         padding: 2px;
     }
     .nav-links {
         justify-content: start;
+    }
+    .spacer{
+        height: 75px;
     }
 }
 

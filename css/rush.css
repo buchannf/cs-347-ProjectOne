@@ -13,7 +13,7 @@
     50% {color: #27355C;}
     100% {color: #FF8401;}
 }
-img {
+main > img {
     box-shadow: 0 0 30px #27355C;
     margin-left: 5%;
     margin-right: 5%;
@@ -72,4 +72,15 @@ img {
     color:  #FF8401;
     font-family: 'Staatliches', cursive;
     text-align: center;
+}
+@media(max-width: 650px) {
+    main > img {
+        max-width: 275px;
+    }
+    .info-box {
+        font-size: 25px;
+    }
+    #head > h1 {
+        font-size: 50px;
+    }
 }

@@ -51,3 +51,23 @@ h1 {
     color: #27355C;
     background-color: #FF8401;
 }
+
+@media(max-width: 650px) {
+    .kodak > img {
+        height: 200px;
+        max-width: 200px;
+        margin: 0;
+    }
+    .kodak > h1 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .next, .prev {
+        height: 40px;
+        width: 30px; 
+        font-size: 30px;
+    }
+
+}

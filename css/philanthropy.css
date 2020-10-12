@@ -49,7 +49,7 @@
     color: #FF8401;
 }
 
-img {
+main > img {
     box-shadow: 0 0 30px #27355C;
     margin-left: 5%;
     margin-right: 5%;
@@ -92,10 +92,44 @@ img {
     text-decoration: none;
 }
 #donation :hover {
+    animation-name: button-changer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     padding: 5px
 }
 #donation :active {
     color:  #3455a0;
     background-color: #FF8401;
     box-shadow: 0 0 30px #FF8401;
+}
+
+@keyframes button-changer {
+    0% {
+        color:  #3455a0;
+        background-color: #FF8401;
+        box-shadow: 0 0 30px #FF8401;
+    }
+    50% {    
+        color:  #FF8401;
+        background-color: #3455a0;
+        box-shadow: 0 0 30px #3455a0;
+    }
+    100% {    
+        color:  #3455a0;
+        background-color: #FF8401;
+        box-shadow: 0 0 30px #FF8401;
+    }
+}
+
+@media(max-width: 650px) {
+    #content{
+        flex-direction: column;
+    }
+    main > img {
+        max-width: 350px;
+        padding: 0;
+    }
+    #contact-box{
+        flex-direction: column;
+    }
 }
