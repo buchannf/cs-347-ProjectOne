@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.spacer {
+    height: 300px;
+}
 #contact-box {
     display: flex;
     flex-direction: row;

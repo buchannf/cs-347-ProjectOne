@@ -15,11 +15,13 @@
     box-shadow: 0 0 30px #27355C;
     font-family:'Philosopher', sans-serif;
     font-weight: bold;
-    justify-content: center;
+    justify-content: start;
+    text-align: start;
 }
 #side-content-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
 }
 #side-content-header > img {
     width: 200px;
@@ -36,6 +38,10 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+#side-name {
+    font-size: 20px;
+    font-family: 'Mate SC', serif;
 }
 
 .slide {
