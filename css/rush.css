@@ -15,8 +15,8 @@
 }
 main > img {
     box-shadow: 0 0 30px #27355C;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 5px;
 }
 #content {
@@ -50,9 +50,8 @@ main > img {
     padding: 5px;
 }
 .info-box > img {
-    margin: 0;
-    align-self: center;
-    width: 75%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #contact-box {
     display: flex;
