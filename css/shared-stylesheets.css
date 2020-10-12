@@ -137,6 +137,12 @@ footer > div > p {
         height: 75px;
     }
 }
+@media(max-width: 300px) {
+    .nav-link {
+        padding: 2px;
+        font-size: 12px;
+    }
+}
 
 
 
