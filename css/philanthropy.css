@@ -133,6 +133,6 @@ main > img {
         flex-direction: column;
     }
     .info-box{
-    
+        align-self: center;
     }
 }
