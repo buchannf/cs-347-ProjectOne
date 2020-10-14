@@ -15,9 +15,8 @@
 }
 main > img {
     box-shadow: 0 0 30px #27355C;
-    margin-left: 20%;
-    margin-right: 20%;
     border-radius: 5px;
+    align-self: center;
 }
 #content {
     display: flex;
@@ -50,8 +49,9 @@ main > img {
     padding: 5px;
 }
 .info-box > img {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0;
+    align-self: center;
+    width: 75%;
 }
 #contact-box {
     display: flex;
@@ -76,10 +76,19 @@ main > img {
     main > img {
         max-width: 275px;
     }
+    .main {
+        padding: 0;
+    }
     .info-box {
         font-size: 25px;
     }
     #head > h1 {
         font-size: 50px;
+    }
+    .info-box > img {
+        margin: 0;
+    }
+    .contact-info {
+        font-size: 20px;
     }
 }
